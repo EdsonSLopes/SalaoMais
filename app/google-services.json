@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "530839505224",
+    "firebase_url": "https://salaomais-c1e92.firebaseio.com",
+    "project_id": "salaomais-c1e92",
+    "storage_bucket": "salaomais-c1e92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530839505224:android:c7d41204958eadba",
+        "android_client_info": {
+          "package_name": "com.mais.salao.salaomais"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530839505224-fbfn1asdo9gg90kbo2gdr2vt7pf048q9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mais.salao.salaomais",
+            "certificate_hash": "556af23cad23264c676f14459a270e390489cdc8"
+          }
+        },
+        {
+          "client_id": "530839505224-ahf2n9kuobjil3alsgo4qd9lrp97hatc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9XvY9HtUXhIALSVC0ggqSz_AzJlIxKvo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530839505224-ahf2n9kuobjil3alsgo4qd9lrp97hatc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
