@@ -5,6 +5,7 @@ import android.content.pm.PackageManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import com.mais.salao.salaomais.R;
@@ -19,6 +20,8 @@ public class HistoricoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_historico);
+
+
 
         btnSair = (Button) findViewById(R.id.btnSair);
         btnAbriProcedimento =(Button) findViewById(R.id.btnAbriProcedimento);
@@ -39,17 +42,20 @@ public class HistoricoActivity extends AppCompatActivity {
             }
         });
 
+
     }
 
     public void sairHistorico(){
         Intent intent = new Intent(HistoricoActivity.this, LoginActivity.class);
         startActivity(intent);
+       finish();
     }
 
 
     public void entrarProcedimento(){
         Intent intent = new Intent(HistoricoActivity.this, ProcedimentosActivity.class);
         startActivity(intent);
+
     }
 
 }

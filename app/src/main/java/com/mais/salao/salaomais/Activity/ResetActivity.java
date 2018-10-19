@@ -65,9 +65,12 @@ public class ResetActivity extends AppCompatActivity {
 
                         }
                     });
+
                 }
 
             }
         });
+
     }
+
 }

@@ -20,11 +20,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/images"
         android:layout_marginTop="30dp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/btnFazerLogin"
-        android:text="Fazer Login"/>
+
     
 
 </LinearLayout>
